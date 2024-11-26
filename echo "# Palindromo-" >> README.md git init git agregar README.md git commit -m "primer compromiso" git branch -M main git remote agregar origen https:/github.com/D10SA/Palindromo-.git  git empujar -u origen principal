@@ -1,4 +1,4 @@
-Var palindrome = function (x){
+var palindrome = function (x){
     let original = [];
     let lanigiro = [];
     for(let pal1 = 0; pal1 < x.length; pal1++){
@@ -8,7 +8,7 @@ Var palindrome = function (x){
         lanigiro.push(x[pal2]);
     };
     var vul1 = original.join("");
-    Var vul2 = lanigiro.join("");
+    var vul2 = lanigiro.join("");
     if(vul1 == vul2){
         return true;
     }else{
